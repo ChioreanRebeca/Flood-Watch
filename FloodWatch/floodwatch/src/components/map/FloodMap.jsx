@@ -3,26 +3,40 @@ import { MapContainer, TileLayer } from 'react-leaflet';
 import { useAppState } from '../../context/AppStateContext';
 import POIMarkers from './POIMarkers';
 import FloodOverlay from './FloodOverlay';
+import FloodWarningMarkers from './FloodWarningMarkers';
+import BridgeMarkers from './BridgeMarkers';
+import InfrastructureLayer from './InfrastructureLayer';
 
 export default function FloodMap() {
   const { activeLayers } = useAppState();
-  
-const center = [45.75, 27.75]; // Rough center of Galati County
+  const center = [45.75, 27.75]; 
 
   return (
     <div className="flex-1 relative bg-gray-900 z-0">
-      <MapContainer center={center} zoom={11} className="w-full h-full">
-        {/* Dark Mode CartoDB Map Tiles */}
+      <MapContainer 
+        center={center} 
+        zoom={11} 
+        className="w-full h-full"
+      >
         <TileLayer
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          attribution='&copy; OpenStreetMap contributors &copy; CARTO'
         />
         
-        {/* Render Flood Detection AI Output */}
-        <FloodOverlay />
+        {/* Layer 1: Current AI Detection (ONLY shows the raw detection heatmap) */}
+        {activeLayers.aiDetection && <FloodOverlay />}
 
-        {/* Render Emergency Services if toggled on[cite: 1] */}
+        {/* Layer 2: Future AI Prediction (Shows the Honeycomb Risk Nodes) */}
+        {activeLayers.aiPrediction && <FloodWarningMarkers type="prediction" />}
+
+        {/* Essential Services */}
         {activeLayers.emergencyServices && <POIMarkers />}
+        
+        {/* 🌟 Poduri și Treceri (Bridges & Crossings) */}
+        {activeLayers.bridges && <BridgeMarkers />}
+
+        {/* 🌟 Major Roads & Bridges (Bound to the transportRoutes toggle) */}
+        {activeLayers.transportRoutes && <InfrastructureLayer />}
       </MapContainer>
     </div>
   );

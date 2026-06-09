@@ -4,8 +4,10 @@ const AppStateContext = createContext();
 
 export const AppStateProvider = ({ children }) => {
   const [isMenuVisible, setIsMenuVisible] = useState(true); // Toggled when flooding is detected
+
   const [activeLayers, setActiveLayers] = useState({
-    aiDetection: false,
+    aiDetection: true,     // Layer 1: Current AI Detection
+    aiPrediction: false,   // Layer 2: Future AI Prediction
     emergencyServices: true,
     infrastructure: true,
     villageLimits: false,
