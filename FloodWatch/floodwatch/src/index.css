@@ -1,1 +1,8 @@
 @import "tailwindcss";
+.leaflet-interactive:focus {
+  outline: none;
+}
+
+.leaflet-interactive {
+  outline: none;
+}

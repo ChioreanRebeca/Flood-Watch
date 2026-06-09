@@ -6,6 +6,8 @@ import FloodOverlay from './FloodOverlay';
 import FloodWarningMarkers from './FloodWarningMarkers';
 import BridgeMarkers from './BridgeMarkers';
 import InfrastructureLayer from './InfrastructureLayer';
+import CityLimitsLayer from './CityLimitsLayer';
+import LogisticsLayer from './LogisticsLayer';
 
 export default function FloodMap() {
   const { activeLayers } = useAppState();
@@ -22,21 +24,22 @@ export default function FloodMap() {
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
           attribution='&copy; OpenStreetMap contributors &copy; CARTO'
         />
-        
-        {/* Layer 1: Current AI Detection (ONLY shows the raw detection heatmap) */}
+
         {activeLayers.aiDetection && <FloodOverlay />}
 
-        {/* Layer 2: Future AI Prediction (Shows the Honeycomb Risk Nodes) */}
         {activeLayers.aiPrediction && <FloodWarningMarkers type="prediction" />}
 
-        {/* Essential Services */}
         {activeLayers.emergencyServices && <POIMarkers />}
-        
-        {/* 🌟 Poduri și Treceri (Bridges & Crossings) */}
+
         {activeLayers.bridges && <BridgeMarkers />}
 
-        {/* 🌟 Major Roads & Bridges (Bound to the transportRoutes toggle) */}
         {activeLayers.transportRoutes && <InfrastructureLayer />}
+
+        {activeLayers.villageLimits && <CityLimitsLayer />}
+
+
+        {activeLayers.infrastructure && <LogisticsLayer />}
+
       </MapContainer>
     </div>
   );
