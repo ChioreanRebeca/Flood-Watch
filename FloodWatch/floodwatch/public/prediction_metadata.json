@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "2026-06-10T16:23:01.476128+00:00",
+  "city_name": "Galați",
+  "address_type": "county",
+  "today_date": "2024-09-15",
+  "forecast_hours": [
+    6,
+    12,
+    18,
+    24
+  ],
+  "api_lookback_days": 30,
+  "amc_lookback_days": 5,
+  "risk_threshold": 0.85,
+  "export_scale": 30,
+  "output_geojson": "output/flood_warnings.geojson",
+  "ahp_weights": {
+    "runoff_q": 0.4522,
+    "api": 0.2366,
+    "twi": 0.1229,
+    "distance_to_river": 0.0916,
+    "slope": 0.0558,
+    "elevation": 0.041
+  },
+  "normalization_bounds": {
+    "twi": [
+      7.941112538772334,
+      16.932684838673904
+    ],
+    "api": [
+      24.689461530438834,
+      50.62629693459949
+    ],
+    "runoff_q": [
+      12.254885982911382,
+      42.24910276876709
+    ],
+    "distance_to_river": [
+      689.3556187993875,
+      122040.97116843701
+    ],
+    "elevation": [
+      4.895890305623345,
+      232.91602776162705
+    ],
+    "slope": [
+      0.06526274031896599,
+      6.059743045868351
+    ]
+  },
+  "prediction_start_time": "2026-06-10 22:39:24",
+  "prediction_finish_time": "2026-06-10 22:44:40",
+  "prediction_duration": "0h 5m 16.39s",
+  "detection_model": "Microsoft AI4G-Flood model",
+  "detection_performed_at": "2026-06-10 22:44:40",
+  "detection_output": "Galati_AI4G_Flood_Detection.geojson"
+}
+
+

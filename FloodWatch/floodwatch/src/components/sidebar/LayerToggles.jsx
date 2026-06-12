@@ -6,12 +6,12 @@ export default function LayerToggles() {
 
   const layers = [
     // We added the AI Detection layer right here at the top!
-    { id: 'aiDetection', label: 'AI Flood Detection' },
-  { id: 'aiPrediction', label: 'Hydrological Model Forecast' },
-  { id: 'infrastructure', label: 'Infrastructure & Logistics' },
-    { id: 'villageLimits', label: 'Village & City Limits' },
-    { id: 'bridges', label: 'Bridges & Crossings' },
-    { id: 'transportRoutes', label: 'Main Transport Routes' },
+    { id: 'aiDetection', label: 'Detected Flooded Areas' },
+  { id: 'aiPrediction', label: 'Predicted Flood Risk' },
+  { id: 'infrastructure', label: 'Critical Infrastructure' },
+    { id: 'villageLimits', label: 'Administrative Boundaries' },
+    { id: 'bridges', label: 'Bridges and Crossings' },
+    { id: 'transportRoutes', label: 'Main Roads' },
     { id: 'emergencyServices', label: 'Emergency Services' }
   ];
 
