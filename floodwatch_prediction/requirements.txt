@@ -1,0 +1,4 @@
+earthengine-api>=0.1.399
+geemap>=0.32.0
+requests>=2.31.0
+PyYAML>=6.0.1

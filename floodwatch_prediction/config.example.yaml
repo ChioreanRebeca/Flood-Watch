@@ -1,0 +1,19 @@
+project_id: "gen-lang-client-0375557253"
+city_name: "Galați"
+address_type: "county"
+today_date: "2024-09-15"
+
+api_lookback_days: 30
+amc_lookback_days: 5
+api_decay_k: 0.9
+forecast_hours: [6, 12, 18, 24]
+
+hysg_asset_id: "projects/gen-lang-client-0375557253/assets/HYSOGs250m"
+
+risk_threshold: 0.85
+export_scale: 30
+river_upstream_area_threshold_km2: 10
+nominatim_user_agent: "FloodWatchApp/1.0"
+
+output_geojson: "output/flood_warnings.geojson"
+metadata_json: "output/prediction_metadata.json"
