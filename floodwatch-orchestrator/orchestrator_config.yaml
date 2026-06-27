@@ -1,0 +1,60 @@
+# orchestrator_config.yaml
+
+service:
+  name: FloodWatch Orchestrator
+  run_interval_hours: 6
+  run_once: false
+
+mode:
+  # Options:
+  # default = run AI detection whenever prediction produces flood warnings
+  # resource_efficient = run AI detection only for medium/high/critical risk
+  detection_mode: resource_efficient
+
+paths:
+  # Prediction module project
+  prediction_working_dir: "/licenta/floodwatch_prediction"
+
+  # AI4G flood project
+  ai4g_working_dir: "/licenta/ai4g-flood/ai4g-flood-main"
+
+  # React public folder where the frontend reads the results
+  react_public_dir: "/licenta/FloodWatch/frontend/public"
+
+prediction:
+  python_executable: "py"
+  module_command: "floodwatch_prediction.main"
+  config_file: "config.example.yaml"
+
+  # Final GeoJSON used by the frontend
+  output_geojson: "/licenta/FloodWatch/frontend/public/flood_warnings.geojson"
+
+  # Risk value above which a warning point is considered important
+  risk_threshold: 0.80
+
+detection:
+  # AI4G virtual environment Python
+  python_executable: "/licenta/ai4g-flood/ai4g-flood-main/venv/Scripts/python.exe"
+
+  # Optional data download script
+  run_get_data_before_detection: true
+  get_data_script: "get_data.py"
+
+  detection_script: "src/run_flood_detection_downloaded_images.py"
+
+  pre_vv: "/licenta/ai4g-flood/data/Galati_Pre_VV_linear.tif"
+  pre_vh: "/licenta/ai4g-flood/data/Galati_Pre_VH_linear.tif"
+  post_vv: "/licenta/ai4g-flood/data/Galati_Post_VV_linear.tif"
+  post_vh: "/licenta/ai4g-flood/data/Galati_Post_VH_linear.tif"
+
+  model_path: "models/ai4g_sar_model.ckpt"
+
+  output_dir: "/licenta/FloodWatch/frontend/public"
+  output_name: "Galati_GEE_Flood_Prediction_Final.tif"
+
+  # Used only in resource_efficient mode
+  trigger_severities:
+    - MEDIUM
+    - HIGH
+    - CRITICAL
+    - EXTREME

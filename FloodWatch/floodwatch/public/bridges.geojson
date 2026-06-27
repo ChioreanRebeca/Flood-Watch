@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "b1", "name": "Viaductul Siret", "type": "bridge" },
+      "geometry": { "type": "Point", "coordinates": [27.9833, 45.4081] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "b2", "name": "Podul Peste Dunăre (Brăila-Galați)", "type": "bridge" },
+      "geometry": { "type": "Point", "coordinates": [28.0069, 45.3125] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "b3", "name": "Pod Cale Ferată Filești", "type": "bridge" },
+      "geometry": { "type": "Point", "coordinates": [28.0125, 45.4658] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "b4", "name": "Pod peste Râul Prut (Giurgiulești)", "type": "bridge" },
+      "geometry": { "type": "Point", "coordinates": [28.1966, 45.4744] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "b5", "name": "Trecere Râul Bârlad (Tecuci)", "type": "crossing" },
+      "geometry": { "type": "Point", "coordinates": [27.4201, 45.8423] }
+    }
+  ]
+}

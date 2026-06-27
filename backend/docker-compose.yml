@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  floodwatch-db:
+    image: postgres:15-alpine
+    container_name: floodwatch_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: adminpassword
+      POSTGRES_DB: floodwatch
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # This line automatically runs our setup script when the database is created!
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  pgdata:

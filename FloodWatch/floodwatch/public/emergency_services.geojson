@@ -1,0 +1,805 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-09T20:06:31Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/12276364",
+        "addr:city": "Galați",
+        "addr:housenumber": "199",
+        "addr:postcode": "800150",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Traian",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Spitalul Militar de Urgență \"Dr. Aristide Serfioti\"",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0431102,
+          45.4496258
+        ]
+      },
+      "id": "way/12276364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/12502520",
+        "addr:city": "Galați",
+        "addr:housenumber": "290",
+        "addr:postcode": "800179",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Traian",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "is_in:city": "Galați",
+        "name": "Spitalul de psihiatrie \"Elisabeta Doamna\"",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0396093,
+          45.459806
+        ]
+      },
+      "id": "way/12502520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16075445",
+        "addr:city": "Galați",
+        "addr:housenumber": "200",
+        "addr:street": "Bulevardul Brăilei",
+        "amenity": "police",
+        "name": "Inspectoratul Județean de Poliție",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0309285,
+          45.4287724
+        ]
+      },
+      "id": "way/16075445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42488262",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Spitalul de Boli Infecțioase",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0342265,
+          45.4651502
+        ]
+      },
+      "id": "way/42488262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42488339",
+        "amenity": "hospital",
+        "is_in:city": "Galați",
+        "name": "Spitalul de Boli Infecțioase",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0340469,
+          45.4654633
+        ]
+      },
+      "id": "way/42488339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44698022",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "gynaecology",
+        "is_in:city": "Galați",
+        "name": "Spitalul \"Buna Vestire\" obstretică-ginecologie",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0431854,
+          45.4444185
+        ]
+      },
+      "id": "way/44698022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/45081619",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Secția nr. 4",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0209374,
+          45.4565694
+        ]
+      },
+      "id": "way/45081619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48763709",
+        "addr:city": "Galați",
+        "addr:housenumber": "254",
+        "addr:postcode": "800186",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Traian",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Poliția Locală",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.041112,
+          45.4557567
+        ]
+      },
+      "id": "way/48763709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/123658650",
+        "amenity": "police",
+        "name": "Secția 3",
+        "opening_hours": "24/7",
+        "phone": "0236413400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0205358,
+          45.4165785
+        ]
+      },
+      "id": "node/123658650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/123692339",
+        "amenity": "police",
+        "name": "Secția 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0548808,
+          45.4467761
+        ]
+      },
+      "id": "node/123692339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131218231",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Poliția",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6480018,
+          45.5640087
+        ]
+      },
+      "id": "way/131218231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/250375559",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Spitalul de pediatrie \"Sfântul Ioan\"",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0235885,
+          45.4313362
+        ]
+      },
+      "id": "node/250375559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/298831540",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Spitalul CFR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0619055,
+          45.439169
+        ]
+      },
+      "id": "node/298831540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/338888367",
+        "amenity": "police",
+        "check_date": "2026-03-19",
+        "name": "Secția 1 Poliție"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0546831,
+          45.4375273
+        ]
+      },
+      "id": "node/338888367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/451696627",
+        "addr:city": "Galați",
+        "addr:street": "Drumul Uzina de Apă",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Pompierii SMURD",
+        "operator": "SMURD",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0257363,
+          45.4156351
+        ]
+      },
+      "id": "way/451696627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525234599",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Secția 2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0312008,
+          45.433354
+        ]
+      },
+      "id": "way/525234599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525299229",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Inspectoratul Județean de Jandarmi Galați",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0327442,
+          45.4824242
+        ]
+      },
+      "id": "way/525299229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525299230",
+        "amenity": "police",
+        "name": "Inspectoratul Județean de Jandarmi Galați",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0341634,
+          45.4822741
+        ]
+      },
+      "id": "way/525299230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/544918058",
+        "addr:city": "Galați",
+        "addr:housenumber": "33",
+        "addr:postcode": "800055",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Roșiori",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;community",
+        "name": "Cabinete medicale de familie",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0496772,
+          45.4292315
+        ]
+      },
+      "id": "way/544918058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/555910503",
+        "addr:city": "Galați",
+        "addr:housenumber": "117",
+        "addr:postcode": "800189",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Științei",
+        "amenity": "hospital",
+        "email": "contact@pneumogalati.ro;spitalultbc@gmail.com",
+        "healthcare": "hospital",
+        "healthcare:speciality": "pulmonology",
+        "name": "Spitalul de Pneumoftiziologie Galați, TBC",
+        "operator": "Ministerul Sănătății",
+        "website": "https://pneumogalati.ro/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0452483,
+          45.4557564
+        ]
+      },
+      "id": "way/555910503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/569923117",
+        "amenity": "police",
+        "check_date": "2025-05-05",
+        "name": "Poliția Transporturi Feroviare Galați"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.060181,
+          45.4452331
+        ]
+      },
+      "id": "node/569923117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/740483129",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4457966,
+          46.0785239
+        ]
+      },
+      "id": "way/740483129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772684719",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7850896,
+          45.8560595
+        ]
+      },
+      "id": "way/772684719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/843324685",
+        "amenity": "police",
+        "name": "Poliția Braniștea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8355786,
+          45.4435442
+        ]
+      },
+      "id": "node/843324685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902397026",
+        "amenity": "police",
+        "name": "Poliția Smârdan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9423153,
+          45.474077
+        ]
+      },
+      "id": "node/902397026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947917073",
+        "addr:city": "Tecuci",
+        "addr:housenumber": "35",
+        "addr:postcode": "805300",
+        "addr:street": "Strada Costache Conachi",
+        "amenity": "hospital",
+        "email": "anton_cincu2006@yahoo.com",
+        "fax": "+40 236 811 608",
+        "healthcare": "hospital",
+        "name": "Spitalul Municipal „Anton Cincu”",
+        "operator": "Spitalul Municipal „Anton Cincu” Tecuci",
+        "operator:type": "public",
+        "phone": "+40 236 812 440",
+        "website": "https://spital-tecuci.blogspot.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4379722,
+          45.8473331
+        ]
+      },
+      "id": "way/947917073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066932224",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centrul medical Irina",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0224568,
+          45.4458828
+        ]
+      },
+      "id": "way/1066932224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1415921112",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4280575,
+          45.9320529
+        ]
+      },
+      "id": "way/1415921112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1454209024",
+        "addr:city": "Galați",
+        "addr:housenumber": "177",
+        "addr:postcode": "800578",
+        "addr:street": "Strada Brăilei",
+        "amenity": "hospital",
+        "email": "secretariat@spitalulurgentagalati.ro",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "is_in:city": "Galați",
+        "name": "Spitalul Județean de Urgență \"Sfântul Apostol Andrei\"",
+        "operator": "Spitalul Clinic Județean de Urgență \"Sf. Apostol Andrei\" Galați",
+        "operator:type": "government",
+        "phone": "0236 / 301.111",
+        "short_name": "Spitalul judetean Galati",
+        "website": "https://www.spitalulurgentagalati.ro/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0196327,
+          45.4187293
+        ]
+      },
+      "id": "way/1454209024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1489354020",
+        "addr:city": "Tecuci",
+        "addr:street": "Strada 1 Decembrie 1918",
+        "amenity": "fire_station",
+        "name": "Detașamentul de Pompieri Tecuci",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.428497,
+          45.8511874
+        ]
+      },
+      "id": "way/1489354020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1489354021",
+        "addr:city": "Tecuci",
+        "addr:housenumber": "3",
+        "addr:street": "Strada Genoiu Maior",
+        "amenity": "police",
+        "name": "Poliția Municipiului Tecuci",
+        "website": "https://gl.politiaromana.ro/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4292527,
+          45.8513202
+        ]
+      },
+      "id": "way/1489354021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1882384793",
+        "addr:city": "Galați",
+        "addr:street": "Strada Gheorghe Asachi",
+        "amenity": "hospital",
+        "designation": "family medical",
+        "emergency": "no",
+        "name": "Cabinete Medicale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0191736,
+          45.4304417
+        ]
+      },
+      "id": "node/1882384793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2146387087",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0479913,
+          45.5689445
+        ]
+      },
+      "id": "node/2146387087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2146387093",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dispensar Tulucesti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0477768,
+          45.5687492
+        ]
+      },
+      "id": "node/2146387093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4803307921",
+        "amenity": "police",
+        "name": "Poliția Matca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5486547,
+          45.8591446
+        ]
+      },
+      "id": "node/4803307921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043665421",
+        "addr:housenumber": "14",
+        "addr:postcode": "805300",
+        "addr:street": "Strada Elena Doamna",
+        "amenity": "police",
+        "name": "Poliția Locală",
+        "name:ro": "Poliția Locală",
+        "opening_hours": "24/7",
+        "phone": "0236813333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4271199,
+          45.8444912
+        ]
+      },
+      "id": "node/5043665421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5109960668",
+        "amenity": "fire_station",
+        "name": "ISU Galați"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0558637,
+          45.4478718
+        ]
+      },
+      "id": "node/5109960668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6560567716",
+        "amenity": "police",
+        "name": "Post de Poliție"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7630034,
+          45.4727539
+        ]
+      },
+      "id": "node/6560567716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7213865812",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7851111,
+          45.8560819
+        ]
+      },
+      "id": "node/7213865812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7428815061",
+        "addr:city": "Galați",
+        "addr:housenumber": "82",
+        "addr:postcode": "800098",
+        "addr:street": "Strada Brăilei",
+        "amenity": "hospital",
+        "email": "office@prieteniicublanita.ro",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "veterinary;pets;pet_food;veterinary_pharmacy",
+        "name": "Cabinet veterinar dr. Silvia Tiolan",
+        "operator": "Prietenii cu Blanita SRL",
+        "operator:type": "private",
+        "phone": "+40752111929",
+        "website": "https://prieteniicublanita.ro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0447884,
+          45.4308919
+        ]
+      },
+      "id": "node/7428815061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13657727206",
+        "addr:city": "Târgu Bujor",
+        "addr:housenumber": "105",
+        "addr:postcode": "805200",
+        "addr:street": "Strada General Eremia Grigorescu",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Policlinica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9127914,
+          45.8711141
+        ]
+      },
+      "id": "node/13657727206"
+    }
+  ]
+}

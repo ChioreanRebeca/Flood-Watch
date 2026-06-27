@@ -1,0 +1,2574 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-09T21:57:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/13532215",
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8959487,
+          45.4226904
+        ]
+      },
+      "id": "way/13532215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19261203",
+        "name": "Baleni Wind Farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "site": "wind_farm",
+        "start_date": "2013",
+        "type": "site",
+        "wikidata": "Q30973719",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7931349,
+          45.7848396
+        ]
+      },
+      "id": "relation/19261203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19261263",
+        "name": "Cudalbi Wind Farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "site": "wind_farm",
+        "type": "site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7641032,
+          45.7727931
+        ]
+      },
+      "id": "relation/19261263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19262179",
+        "name": "Frumusița wind farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9936549,
+          45.6571338
+        ]
+      },
+      "id": "relation/19262179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/31114688",
+        "addr:housenumber": "1",
+        "addr:street": "Strada Gării",
+        "building": "train_station",
+        "building:colour": "#e38e16",
+        "building:levels": "2",
+        "name": "Gara Galați",
+        "official_name": "Gara CFR Galați",
+        "operator": "CFR Călători",
+        "operator:wikidata": "Q856252",
+        "roof:colour": "#f06060",
+        "roof:levels": "0",
+        "roof:shape": "saltbox",
+        "smoking": "outside",
+        "train": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0604536,
+          45.4445067
+        ]
+      },
+      "id": "way/31114688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42500283",
+        "addr:city": "Galați",
+        "addr:street": "Strada Lunca Siretului",
+        "building": "train_station",
+        "building:colour": "#e2a069",
+        "building:levels": "1",
+        "height": "7.5",
+        "name": "Gara Barboși",
+        "name:ru": "Вокзал Барбошь",
+        "operator": "CFR Călători",
+        "operator:wikidata": "Q856252",
+        "roof:colour": "#cb572a",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9885134,
+          45.401948
+        ]
+      },
+      "id": "way/42500283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42581937",
+        "building": "train_station",
+        "name": "Gara Filești",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0072361,
+          45.4438456
+        ]
+      },
+      "id": "way/42581937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42755656",
+        "building": "train_station",
+        "name": "Gară Șendreni",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9229505,
+          45.4104496
+        ]
+      },
+      "id": "way/42755656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42755835",
+        "building": "train_station",
+        "name": "Gara Braniștea hc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.834179,
+          45.4381765
+        ]
+      },
+      "id": "way/42755835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/67878496",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7618021,
+          45.4781774
+        ]
+      },
+      "id": "way/67878496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/111345677",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.411472,
+          45.8471427
+        ]
+      },
+      "id": "way/111345677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/122563612",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "compressed_air": "no",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 754 203 242",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Partener Rompetrol",
+        "name:ro": "Partener Rompetrol",
+        "name:ru": "Rompetrol Partner",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0054423,
+          45.4134901
+        ]
+      },
+      "id": "node/122563612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/122565791",
+        "amenity": "fuel",
+        "brand": "MOL",
+        "brand:wikidata": "Q549181",
+        "compressed_air": "yes",
+        "name": "Mol",
+        "opening_hours": "Mo-Su,PH 00:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0017287,
+          45.410397
+        ]
+      },
+      "id": "node/122565791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/122576135",
+        "addr:city": "Galați",
+        "addr:housenumber": "67",
+        "addr:postcode": "800248",
+        "addr:street": "Strada Drumul de Centură",
+        "amenity": "fuel",
+        "fuel:benzina": "yes",
+        "fuel:benzine": "yes",
+        "fuel:diesel": "yes",
+        "fuel:electricity": "no",
+        "fuel:lpg": "no",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "name": "Media Trans",
+        "opening_hours": "24/7",
+        "operator": "Media Trans",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "0236410038",
+        "self_service": "yes",
+        "url": "http://media-trans.ro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0051826,
+          45.4188953
+        ]
+      },
+      "id": "node/122576135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/123509170",
+        "addr:city": "Galați",
+        "addr:housenumber": "23",
+        "addr:postcode": "800344",
+        "addr:street": "Strada Saturn",
+        "amenity": "fuel",
+        "brand": "Petrom",
+        "brand:wikidata": "Q1755034",
+        "brand:wikipedia": "en:Petrom",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:diesel_plus": "yes",
+        "fuel:gasoline": "yes",
+        "fuel:lpg": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "fuel:premium": "yes",
+        "fuel:premium_diesel": "yes",
+        "name": "Petrom",
+        "opening_hours": "24/7",
+        "operator": "OMV PETROM MARKETING SRL",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:phone_app": "yes",
+        "payment:visa": "yes",
+        "ref:vatin": "RO11201891",
+        "self_service": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0290614,
+          45.421565
+        ]
+      },
+      "id": "node/123509170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/123608477",
+        "addr:city": "Galați",
+        "addr:housenumber": "15",
+        "addr:street": "Bulevardul Oțelarilor",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "compressed_air": "no",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 372 784 925",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "fuel:diesel": "yes",
+        "fuel:lpg": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:premium": "yes",
+        "is_in:city": "Galați",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7",
+        "operator": "SC ROMPETROL DOWNSTREAM SRL",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "payment:visa_electron": "yes",
+        "ref:vatin": "RO12751583"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.017694,
+          45.41352
+        ]
+      },
+      "id": "node/123608477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/123745651",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Micro 19",
+        "network": "Transurb",
+        "operator": "Transurb",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0124752,
+          45.4133153
+        ]
+      },
+      "id": "node/123745651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/126203270",
+        "amenity": "fuel",
+        "brand": "Petrom",
+        "brand:wikidata": "Q1755034",
+        "brand:wikipedia": "en:Petrom",
+        "name": "Petrom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0247087,
+          45.4546739
+        ]
+      },
+      "id": "node/126203270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/150472918",
+        "addr:street": "Bulevardul Galați",
+        "amenity": "fuel",
+        "brand": "Lukoil",
+        "fuel:1_25": "no",
+        "fuel:1_50": "no",
+        "fuel:diesel": "yes",
+        "fuel:lpg": "no",
+        "fuel:octane_100": "no",
+        "fuel:octane_91": "no",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "no",
+        "is_in:city": "Galați",
+        "layer": "1",
+        "name": "BKO",
+        "opening_hours": "24/7",
+        "operator": "BKO",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+40746212881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0146153,
+          45.4101225
+        ]
+      },
+      "id": "node/150472918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/196723098",
+        "name": "Smârdan",
+        "operator": "Transelectrica",
+        "operator:short": "TEL",
+        "operator:wikidata": "Q750324",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "transmission",
+        "voltage": "400000",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9517422,
+          45.4642924
+        ]
+      },
+      "id": "way/196723098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/206163932",
+        "power": "substation",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.914948,
+          45.8580146
+        ]
+      },
+      "id": "way/206163932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/206163933",
+        "power": "substation",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0589654,
+          45.7305577
+        ]
+      },
+      "id": "way/206163933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/206163934",
+        "power": "substation",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8019451,
+          45.6425875
+        ]
+      },
+      "id": "way/206163934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/214146381",
+        "name": "Barboși",
+        "operator": "TEL",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "transport",
+        "voltage": "220000",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9755927,
+          45.410031
+        ]
+      },
+      "id": "way/214146381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/224802775",
+        "amenity": "fuel",
+        "brand": "Lukoil",
+        "brand:wikidata": "Q329347",
+        "check_date": "2025-12-24",
+        "name": "Lukoil",
+        "operator": "Lukoil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3994607,
+          45.8499484
+        ]
+      },
+      "id": "node/224802775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230489744",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0529173,
+          45.651031
+        ]
+      },
+      "id": "way/230489744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231075876",
+        "amenity": "fuel",
+        "brand": "Lukoil",
+        "brand:wikidata": "Q329347",
+        "building": "yes",
+        "name": "Lukoil",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0174664,
+          45.4515849
+        ]
+      },
+      "id": "way/231075876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232669710",
+        "power": "substation",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5750235,
+          45.6207382
+        ]
+      },
+      "id": "way/232669710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232669717",
+        "power": "substation",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5868409,
+          45.5868596
+        ]
+      },
+      "id": "way/232669717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232669719",
+        "power": "substation",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4102345,
+          45.8445969
+        ]
+      },
+      "id": "way/232669719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232669723",
+        "power": "substation",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5372389,
+          45.7312046
+        ]
+      },
+      "id": "way/232669723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/243819341",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4234026,
+          45.8352514
+        ]
+      },
+      "id": "way/243819341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280758769",
+        "addr:city": "Tecuci",
+        "addr:housenumber": "7B",
+        "addr:postcode": "805300",
+        "addr:street": "Strada Transilvania",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Autogara GEGI",
+        "phone": "+4-0236-820.031",
+        "public_transport": "station",
+        "source": "http://www.autogari.ro/tecuci/autogara_tecuci___gegi_srl/Autogara8851?lang=ro",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4310289,
+          45.8404123
+        ]
+      },
+      "id": "way/280758769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/281129737",
+        "addr:city": "Tecuci",
+        "addr:postcode": "805300",
+        "addr:street": "Strada Transilvania",
+        "amenity": "fuel",
+        "brand": "OMV",
+        "brand:wikidata": "Q168238",
+        "brand:wikipedia": "en:OMV",
+        "building": "yes",
+        "name": "OMV",
+        "operator": "OMV",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.434164,
+          45.8393999
+        ]
+      },
+      "id": "way/281129737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/281131246",
+        "addr:city": "Tecuci",
+        "addr:postcode": "805300",
+        "addr:street": "Strada Transilvania",
+        "amenity": "fuel",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4322134,
+          45.8398618
+        ]
+      },
+      "id": "way/281131246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/290990194",
+        "addr:city": "Galați",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 754 203 240",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7",
+        "operator": "Rompetrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0363225,
+          45.4338864
+        ]
+      },
+      "id": "node/290990194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/290990199",
+        "addr:city": "Galați",
+        "addr:housenumber": "72",
+        "addr:postcode": "800385",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Bulevardul George Coșbuc",
+        "amenity": "fuel",
+        "name": "BKO",
+        "operator": "BKO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0369423,
+          45.4334996
+        ]
+      },
+      "id": "node/290990199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/298831437",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Autogara Metropoli Galați",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0593627,
+          45.4421642
+        ]
+      },
+      "id": "node/298831437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/299931571",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 372 784 923",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7",
+        "operator": "Rompetrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0483472,
+          45.4568727
+        ]
+      },
+      "id": "node/299931571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325018006",
+        "addr:city": "Șendreni",
+        "amenity": "fuel",
+        "brand": "OMV",
+        "brand:wikidata": "Q168238",
+        "name": "OMV",
+        "opening_hours": "24/7",
+        "operator": "OMV",
+        "phone": "+40 372 429 181"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9343543,
+          45.4096161
+        ]
+      },
+      "id": "node/325018006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/348369018",
+        "amenity": "fuel",
+        "name": "Mol",
+        "operator": "Mol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.033305,
+          45.4779284
+        ]
+      },
+      "id": "node/348369018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/348375913",
+        "amenity": "fuel",
+        "name": "Lukoil",
+        "operator": "Lukoil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0335437,
+          45.4617018
+        ]
+      },
+      "id": "node/348375913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/364762898",
+        "amenity": "fuel",
+        "name": "Bulrom Gas",
+        "operator": "Bulrom Gas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0075818,
+          45.4371631
+        ]
+      },
+      "id": "node/364762898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411013813",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7035011,
+          45.7065166
+        ]
+      },
+      "id": "node/411013813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/444722121",
+        "amenity": "fuel",
+        "name": "Stație GPL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.034045,
+          45.456995
+        ]
+      },
+      "id": "node/444722121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/444850930",
+        "amenity": "fuel",
+        "name": "Anghel Oiln",
+        "name:en": "Anghel Oil",
+        "opening_hours": "24/7",
+        "operator": "ANGHEL OIL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0361168,
+          45.4428248
+        ]
+      },
+      "id": "node/444850930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/444850933",
+        "amenity": "fuel",
+        "name": "Anghel Oil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0362056,
+          45.4423945
+        ]
+      },
+      "id": "node/444850933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/451696628",
+        "addr:city": "Galați",
+        "addr:street": "Strada Saturn",
+        "man_made": "water_works",
+        "name": "Uzina de Apa II",
+        "operator": "Apa Canal S.A.",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0264371,
+          45.417473
+        ]
+      },
+      "id": "way/451696628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/451696629",
+        "addr:city": "Galați",
+        "addr:street": "Strada Saturn",
+        "man_made": "water_works",
+        "name": "Uzina de Apă I",
+        "operator": "ApaCanal S. A.",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0293096,
+          45.4158768
+        ]
+      },
+      "id": "way/451696629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530205835",
+        "amenity": "bus_station",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Autogara Dunărea 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0049312,
+          45.414236
+        ]
+      },
+      "id": "node/530205835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/557994059",
+        "amenity": "fuel",
+        "name": "DS Tofan",
+        "opening_hours": "24/7",
+        "operator": "DS Tofan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0341584,
+          45.4738991
+        ]
+      },
+      "id": "node/557994059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/567168343",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "name": "Rompetrol",
+        "opening_hours": "24/7",
+        "operator": "Rompetrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0729818,
+          45.4475386
+        ]
+      },
+      "id": "node/567168343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576044840",
+        "addr:city": "Galați",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "name": "Rompetrol",
+        "operator": "Rompetrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0083242,
+          45.4420028
+        ]
+      },
+      "id": "node/576044840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576045160",
+        "addr:city": "Galați",
+        "addr:housenumber": "30",
+        "addr:postcode": "800253",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Nicolae Mantu",
+        "amenity": "fuel",
+        "brand": "Petrom",
+        "brand:wikidata": "Q1755034",
+        "name": "Petrom",
+        "opening_hours": "24/7",
+        "operator": "Petrom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.010351,
+          45.4452648
+        ]
+      },
+      "id": "node/576045160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/721839019",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0493127,
+          45.5625907
+        ]
+      },
+      "id": "way/721839019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772734550",
+        "building": "yes",
+        "name": "PTW",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0097665,
+          45.4142341
+        ]
+      },
+      "id": "way/772734550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/801924315",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5941189,
+          45.5823371
+        ]
+      },
+      "id": "way/801924315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/801938633",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4748367,
+          45.7684022
+        ]
+      },
+      "id": "way/801938633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/801938642",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5387207,
+          45.6333125
+        ]
+      },
+      "id": "way/801938642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/824661358",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7202908,
+          45.5065354
+        ]
+      },
+      "id": "way/824661358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/836536294",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8763442,
+          45.422165
+        ]
+      },
+      "id": "way/836536294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/844408405",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9223332,
+          45.866793
+        ]
+      },
+      "id": "way/844408405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/845002150",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9227949,
+          46.0235561
+        ]
+      },
+      "id": "way/845002150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/845025158",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9479043,
+          45.8127724
+        ]
+      },
+      "id": "way/845025158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/845033847",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0693136,
+          45.7385702
+        ]
+      },
+      "id": "way/845033847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/845040438",
+        "building": "train_station",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "ref:RO:lmi": "GL-II-a-B-03081",
+        "start_date": "1909",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0712732,
+          45.6570883
+        ]
+      },
+      "id": "way/845040438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/848191422",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7002786,
+          45.5349854
+        ]
+      },
+      "id": "way/848191422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/875969283",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1126087,
+          45.4485182
+        ]
+      },
+      "id": "way/875969283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/875969284",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.112935,
+          45.4485557
+        ]
+      },
+      "id": "way/875969284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/877863056",
+        "building": "train_station",
+        "name": "Clădirea administrativă a stației Galați Transbordare",
+        "name:ru": "Административное здание станции Галац-Перегрузка",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0816232,
+          45.4512251
+        ]
+      },
+      "id": "way/877863056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/883696897",
+        "building": "train_station",
+        "name": "Gara Galați Brateș",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07052,
+          45.4528902
+        ]
+      },
+      "id": "way/883696897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/883942116",
+        "building": "industrial",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0856335,
+          45.4466911
+        ]
+      },
+      "id": "way/883942116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/884576815",
+        "building": "yes",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9639853,
+          45.4480148
+        ]
+      },
+      "id": "way/884576815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/884992993",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "man_made": "wastewater_plant",
+        "name": "Stație de tratare a apei",
+        "name:ru": "Станция водоочистки",
+        "name:uk": "Станція водоочищення",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0976276,
+          45.4489411
+        ]
+      },
+      "id": "way/884992993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/885134202",
+        "amenity": "fuel",
+        "area": "yes",
+        "description": "Punctul de alimentare cu combustibil pentru locomotive diesel.",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9610625,
+          45.4406159
+        ]
+      },
+      "id": "way/885134202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/885354147",
+        "building": "train_station",
+        "name": "Clădirea Dispeceratului",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9635111,
+          45.435841
+        ]
+      },
+      "id": "way/885354147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/885476767",
+        "building": "train_station",
+        "name": "Clădirea Dispeceratului",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9581826,
+          45.4048978
+        ]
+      },
+      "id": "way/885476767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/885799128",
+        "building": "industrial",
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9622245,
+          45.4328512
+        ]
+      },
+      "id": "way/885799128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888007478",
+        "building": "train_station",
+        "name": "Administrarea stației Barboși Triaj",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9594657,
+          45.4053415
+        ]
+      },
+      "id": "way/888007478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888021594",
+        "building": "service",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9813657,
+          45.4527645
+        ]
+      },
+      "id": "way/888021594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888519985",
+        "building": "service",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.978069,
+          45.4464945
+        ]
+      },
+      "id": "way/888519985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/890259041",
+        "building": "train_station",
+        "name": "Clădirea administrativă a stației Cătuşa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9955358,
+          45.4348655
+        ]
+      },
+      "id": "way/890259041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/890897653",
+        "building": "service",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9869653,
+          45.4420336
+        ]
+      },
+      "id": "way/890897653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893210316",
+        "building": "industrial",
+        "layer": "-1",
+        "man_made": "wastewater_plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9823117,
+          45.4123631
+        ]
+      },
+      "id": "way/893210316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893210317",
+        "building": "industrial",
+        "layer": "-1",
+        "man_made": "wastewater_plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9822976,
+          45.4120992
+        ]
+      },
+      "id": "way/893210317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893242950",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9863757,
+          45.4105522
+        ]
+      },
+      "id": "way/893242950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893306663",
+        "building": "service",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9794022,
+          45.4158719
+        ]
+      },
+      "id": "way/893306663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893909010",
+        "building": "service",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9851849,
+          45.4363105
+        ]
+      },
+      "id": "way/893909010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/915625813",
+        "landuse": "industrial",
+        "name": "Electrocentrale Galați",
+        "name:en": "Galati Thermal Power Station",
+        "plant:method": "combustion",
+        "plant:output:electricity": "535 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "source": "http://globalenergyobservatory.org/geoid/40974",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9822114,
+          45.4348572
+        ]
+      },
+      "id": "way/915625813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/956618519",
+        "addr:city": "Galați",
+        "addr:housenumber": "2",
+        "addr:postcode": "800629",
+        "addr:street": "Strada Furnaliștilor",
+        "building": "service",
+        "building:levels": "1",
+        "description": "punct transformare\nPTZ.1098\nP.T.1 MR 20\n6/04KV",
+        "name": "PT.1 MR20",
+        "operator": "SDEE GALATI",
+        "power": "substation",
+        "ref": "PTZ.1098",
+        "roof:shape": "gabled",
+        "substation": "minor_distribution",
+        "voltage": "4000",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.009328,
+          45.414265
+        ]
+      },
+      "id": "way/956618519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/989337068",
+        "addr:city": "Galați",
+        "man_made": "wastewater_plant",
+        "name": "Stație de Epurare Apă-Canal",
+        "name:ro": "Stație de Epurare Apă-Canal",
+        "website": "https://www.apa-canal.ro",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0030494,
+          45.4060827
+        ]
+      },
+      "id": "way/989337068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1029859573",
+        "addr:city": "Galați",
+        "addr:housenumber": "2",
+        "addr:postcode": "800629",
+        "addr:street": "Strada Furnaliștilor",
+        "building": "service",
+        "building:levels": "1",
+        "description": "centrală P.T. Micro 20",
+        "name": "PT. SC36",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0076935,
+          45.4136613
+        ]
+      },
+      "id": "way/1029859573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1041884916",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4614402,
+          45.7931328
+        ]
+      },
+      "id": "way/1041884916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1041884921",
+        "building": "train_station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6397557,
+          45.5675696
+        ]
+      },
+      "id": "way/1041884921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066402288",
+        "name": "Filesti",
+        "operator": "TEL",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "220000",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0166505,
+          45.4365924
+        ]
+      },
+      "id": "way/1066402288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1137592991",
+        "name": "Hidrocentrala Movileni",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3416947,
+          45.7828512
+        ]
+      },
+      "id": "way/1137592991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1137593234",
+        "name": "Hidrocentrala Călimănești",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2458121,
+          45.9481211
+        ]
+      },
+      "id": "way/1137593234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171512284",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9549574,
+          45.6780112
+        ]
+      },
+      "id": "way/1171512284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1188994462",
+        "addr:city": "Galați",
+        "addr:housenumber": "199",
+        "addr:postcode": "800626",
+        "addr:street": "Strada Brăilei",
+        "building": "service",
+        "building:levels": "1",
+        "description": "punct transformare\nPTZ.1021\nP.T.A2 MICRO 20\n20/04KV",
+        "name": "PT.A2 MR20",
+        "operator": "SDEE GALATI",
+        "power": "substation",
+        "ref": "PTZ.1021",
+        "roof:shape": "gabled",
+        "substation": "minor_distribution",
+        "voltage": "2004",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0085804,
+          45.4141476
+        ]
+      },
+      "id": "way/1188994462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1333218536",
+        "power": "substation",
+        "substation": "distribution",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0057636,
+          45.4156067
+        ]
+      },
+      "id": "way/1333218536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1344903423",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 372 784 988",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4406571,
+          45.8177943
+        ]
+      },
+      "id": "node/1344903423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1395933532",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7993195,
+          45.796328
+        ]
+      },
+      "id": "way/1395933532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1423544615",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2449724,
+          45.9476541
+        ]
+      },
+      "id": "way/1423544615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1456860792",
+        "man_made": "wastewater_plant",
+        "name": "Staţia de epurare a apelor uzate Tecuci",
+        "operator": "Apă Canal S.A. Galați",
+        "phone": "+40 236 810 741",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4388629,
+          45.8170437
+        ]
+      },
+      "id": "way/1456860792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1490452623",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Stație Autobuz",
+        "public_transport": "station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9146876,
+          45.8707213
+        ]
+      },
+      "id": "way/1490452623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1490666725",
+        "amenity": "fuel",
+        "brand": "Petrom",
+        "brand:wikidata": "Q1755034",
+        "name": "Petrom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4303631,
+          45.9573871
+        ]
+      },
+      "id": "node/1490666725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1494607088",
+        "power": "substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6764703,
+          45.7969334
+        ]
+      },
+      "id": "way/1494607088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1503890662",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "110000;6000",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0446714,
+          45.5409722
+        ]
+      },
+      "id": "way/1503890662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1670428054",
+        "addr:street": "DN25",
+        "amenity": "fuel",
+        "is_in:city": "Ivești",
+        "name": "Atlas Oil",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.519974,
+          45.6808926
+        ]
+      },
+      "id": "node/1670428054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1670777167",
+        "addr:street": "DN25",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 754 203 244",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7",
+        "operator": "Rompetrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5803835,
+          45.5928358
+        ]
+      },
+      "id": "node/1670777167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1670784441",
+        "amenity": "fuel",
+        "fuel:diesel": "?",
+        "fuel:octane_95": "?",
+        "fuel:octane_98": "?",
+        "name": "La Melu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4643906,
+          45.7782476
+        ]
+      },
+      "id": "node/1670784441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134963075",
+        "amenity": "fuel",
+        "fuel:lpg": "yes",
+        "name": "Bulrom Gas",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0345426,
+          45.4338523
+        ]
+      },
+      "id": "node/2134963075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3334249215",
+        "amenity": "fuel",
+        "brand": "Lukoil",
+        "brand:wikidata": "Q329347",
+        "brand:wikipedia": "en:Lukoil",
+        "name": "Lukoil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9152753,
+          45.8585091
+        ]
+      },
+      "id": "node/3334249215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3334249616",
+        "amenity": "fuel",
+        "brand": "OMV",
+        "brand:wikidata": "Q168238",
+        "brand:wikipedia": "en:OMV",
+        "name": "OMV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0343135,
+          45.4713343
+        ]
+      },
+      "id": "node/3334249616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3334250796",
+        "amenity": "fuel",
+        "brand": "Petrom",
+        "brand:wikidata": "Q1755034",
+        "brand:wikipedia": "en:Petrom",
+        "name": "Petrom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8898188,
+          46.0856802
+        ]
+      },
+      "id": "node/3334250796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4428740705",
+        "addr:street": "Strada Galați",
+        "amenity": "fuel",
+        "name": "Lubrifin",
+        "name:ro": "Lubrifin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7912061,
+          45.6285428
+        ]
+      },
+      "id": "node/4428740705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4459924089",
+        "amenity": "fuel",
+        "name": "Anghel oil",
+        "name:ro": "Anghel oil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.036196,
+          45.4424884
+        ]
+      },
+      "id": "node/4459924089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4460015992",
+        "amenity": "fuel",
+        "name": "Anghel Oil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0354506,
+          45.4423682
+        ]
+      },
+      "id": "node/4460015992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4907177175",
+        "amenity": "bus_station",
+        "name": "Auchan",
+        "operator": "Transurb",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0200696,
+          45.4039169
+        ]
+      },
+      "id": "node/4907177175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9396798525",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 744 701 114",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.912837,
+          45.873752
+        ]
+      },
+      "id": "node/9396798525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9396798668",
+        "addr:city": "Matca",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 744 700 231",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.49011,
+          45.845448
+        ]
+      },
+      "id": "node/9396798668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9396798671",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 744 700 231",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.370972,
+          46.0445527
+        ]
+      },
+      "id": "node/9396798671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9765410559",
+        "addr:street": "Strada Lunca Siretului",
+        "amenity": "bus_station",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Poligon",
+        "network": "Transurb",
+        "network:wikidata": "Q3997541",
+        "operator": "Transurb",
+        "public_transport": "station",
+        "shelter": "no",
+        "trolleybus": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9979325,
+          45.4080862
+        ]
+      },
+      "id": "node/9765410559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10629559503",
+        "amenity": "fuel",
+        "name": "Lausyl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6752932,
+          45.8334427
+        ]
+      },
+      "id": "node/10629559503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11266317768",
+        "alt_name": "Rompetrol",
+        "amenity": "fuel",
+        "brand": "Rompetrol",
+        "brand:wikidata": "Q1788862",
+        "brand:wikipedia": "en:Rompetrol",
+        "contact:email": "infoline@rompetrol.com",
+        "contact:facebook": "https://www.facebook.com/Rompetrol.Romania",
+        "contact:instagram": "https://www.instagram.com/rompetrol",
+        "contact:phone": "+40 741 245 285",
+        "contact:tiktok": "https://www.tiktok.com/@rompetrol.romania",
+        "contact:website": "https://www.rompetrol.ro",
+        "name": "Rompetrol",
+        "name:ro": "Rompetrol",
+        "name:ru": "Rompetrol",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.475519,
+          45.7515645
+        ]
+      },
+      "id": "node/11266317768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13411445376",
+        "addr:city": "Galați",
+        "addr:postcode": "800259",
+        "addr:street": "Strada Drumul de Centură",
+        "amenity": "fuel",
+        "brand": "OMV",
+        "brand:wikidata": "Q168238",
+        "fuel:diesel": "yes",
+        "fuel:diesel_extra": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "name": "OMV",
+        "opening_hours": "24/7",
+        "operator": "SC OMV PETROM MARKETING SRL",
+        "phone": "+40 372 448 306",
+        "website": "http://www.omv.ro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0053612,
+          45.4168799
+        ]
+      },
+      "id": "node/13411445376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13671241199",
+        "addr:city": "Smârdan",
+        "amenity": "fuel",
+        "name": "Benzinaria MON"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9501966,
+          45.4687179
+        ]
+      },
+      "id": "node/13671241199"
+    }
+  ]
+}
