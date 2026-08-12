@@ -5,3 +5,9 @@ Flooding is a natural disaster that is oftentimes hard to predict and can cause 
 The FloodWatch application aims to offer a smart solution for detecting early signs of floods and to predict a possible inundation in Romania. The platform uses artificial intelligence to analyze satellite image data to classify land regions (water, vegetation, urban, etc.), topographic elevation maps, and real-time precipitation forecast maps in order to identify areas at high risk of river overflow. It will monitor some of the regions from the the 526 Areas of Potential Significant Risk (APSFR) that are scattered around the river courses within Romanian territory. The system can estimate the likelihood of flooding 6 to 24 hours in advance, displaying vulnerable regions on an interactive map and generating alerts for users.
 
 By working with multiple data sources, the system aims to monitor hydrologic behavior and to accurately predict river flooding. The solution is targeted especially at farmers that could lose a lot of revenue in case of an untimely announced flood and it aims at contributing to reduced economic losses and increased public safety. The platform provides both real-time monitoring and historical analysis of hydrological behavior, which is highly relevant in the context of climate change.
+
+
+The technology stack:
+
+<img width="1524" height="703" alt="image" src="https://github.com/user-attachments/assets/fc16e980-974c-46c8-8d6b-c724efdeb09d" />
+
